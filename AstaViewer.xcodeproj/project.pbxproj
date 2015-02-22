@@ -171,7 +171,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ ! -f ${SRCROOT}/../Java/astah-community.jar ]; then\n    echo \"error: External project dependencies are missing. Please rerun the setup script.\"\n    exit 1\nfi";
+			shellScript = "if [ ! -f ${SRCROOT}/Java/astah-community.jar ]; then\n    echo \"error: External project dependencies are missing. Please rerun the setup script.\"\n    exit 1\nfi";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
