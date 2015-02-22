@@ -1,0 +1,1 @@
+# AstaViewer QuickLook plugin
