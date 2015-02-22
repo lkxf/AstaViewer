@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE16C5411A9A2D630029FE5B /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = BE16C5401A9A2D630029FE5B /* GenerateThumbnailForURL.m */; };
+		BE16C5431A9A2D630029FE5B /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = BE16C5421A9A2D630029FE5B /* GeneratePreviewForURL.m */; };
+		BE16C5451A9A2D630029FE5B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BE16C5441A9A2D630029FE5B /* main.c */; };
+		BE16C5681A9A49AB0029FE5B /* AstaViewer.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE16C53B1A9A2D630029FE5B /* AstaViewer.qlgenerator */; };
+		BE16C58C1A9A4EA90029FE5B /* Java in Resources */ = {isa = PBXBuildFile; fileRef = BE16C58B1A9A4EA90029FE5B /* Java */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE16C5671A9A499C0029FE5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/QuickLook";
+			dstSubfolderSpec = 0;
+			files = (
+				BE16C5681A9A49AB0029FE5B /* AstaViewer.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE16C53B1A9A2D630029FE5B /* AstaViewer.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstaViewer.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE16C53F1A9A2D630029FE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE16C5401A9A2D630029FE5B /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		BE16C5421A9A2D630029FE5B /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		BE16C5441A9A2D630029FE5B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BE16C58B1A9A4EA90029FE5B /* Java */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE16C5371A9A2D630029FE5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE16C5311A9A2D630029FE5B = {
+			isa = PBXGroup;
+			children = (
+				BE16C58B1A9A4EA90029FE5B /* Java */,
+				BE16C53D1A9A2D630029FE5B /* AstaViewer */,
+				BE16C53C1A9A2D630029FE5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE16C53C1A9A2D630029FE5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE16C53B1A9A2D630029FE5B /* AstaViewer.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE16C53D1A9A2D630029FE5B /* AstaViewer */ = {
+			isa = PBXGroup;
+			children = (
+				BE16C5401A9A2D630029FE5B /* GenerateThumbnailForURL.m */,
+				BE16C5421A9A2D630029FE5B /* GeneratePreviewForURL.m */,
+				BE16C5441A9A2D630029FE5B /* main.c */,
+				BE16C53E1A9A2D630029FE5B /* Supporting Files */,
+			);
+			path = AstaViewer;
+			sourceTree = "<group>";
+		};
+		BE16C53E1A9A2D630029FE5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE16C53F1A9A2D630029FE5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BE16C5381A9A2D630029FE5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE16C53A1A9A2D630029FE5B /* AstaViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE16C5481A9A2D630029FE5B /* Build configuration list for PBXNativeTarget "AstaViewer" */;
+			buildPhases = (
+				BE614C541A9A73120020E53F /* Check dependencies */,
+				BE16C5361A9A2D630029FE5B /* Sources */,
+				BE16C5371A9A2D630029FE5B /* Frameworks */,
+				BE16C5381A9A2D630029FE5B /* Headers */,
+				BE16C5391A9A2D630029FE5B /* Resources */,
+				BE16C5671A9A499C0029FE5B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstaViewer;
+			productName = AstaViewer;
+			productReference = BE16C53B1A9A2D630029FE5B /* AstaViewer.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE16C5321A9A2D630029FE5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LKXF;
+				TargetAttributes = {
+					BE16C53A1A9A2D630029FE5B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = BE16C5351A9A2D630029FE5B /* Build configuration list for PBXProject "AstaViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE16C5311A9A2D630029FE5B;
+			productRefGroup = BE16C53C1A9A2D630029FE5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE16C53A1A9A2D630029FE5B /* AstaViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE16C5391A9A2D630029FE5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE16C58C1A9A4EA90029FE5B /* Java in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE614C541A9A73120020E53F /* Check dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check dependencies";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! -f ${SRCROOT}/../Java/astah-community.jar ]; then\n    echo \"error: External project dependencies are missing. Please rerun the setup script.\"\n    exit 1\nfi";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE16C5361A9A2D630029FE5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE16C5411A9A2D630029FE5B /* GenerateThumbnailForURL.m in Sources */,
+				BE16C5431A9A2D630029FE5B /* GeneratePreviewForURL.m in Sources */,
+				BE16C5451A9A2D630029FE5B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE16C5461A9A2D630029FE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE16C5471A9A2D630029FE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE16C5491A9A2D630029FE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AstaViewer/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		BE16C54A1A9A2D630029FE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AstaViewer/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE16C5351A9A2D630029FE5B /* Build configuration list for PBXProject "AstaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE16C5461A9A2D630029FE5B /* Debug */,
+				BE16C5471A9A2D630029FE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE16C5481A9A2D630029FE5B /* Build configuration list for PBXNativeTarget "AstaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE16C5491A9A2D630029FE5B /* Debug */,
+				BE16C54A1A9A2D630029FE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE16C5321A9A2D630029FE5B /* Project object */;
+}
